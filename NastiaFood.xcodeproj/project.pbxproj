@@ -9,18 +9,28 @@
 /* Begin PBXBuildFile section */
 		475E77202C7D2C8600F6ED79 /* NastiaFoodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475E771F2C7D2C8600F6ED79 /* NastiaFoodApp.swift */; };
 		475E77222C7D2C8600F6ED79 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475E77212C7D2C8600F6ED79 /* ContentView.swift */; };
-		475E77242C7D2C8600F6ED79 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475E77232C7D2C8600F6ED79 /* Item.swift */; };
+		475E77242C7D2C8600F6ED79 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475E77232C7D2C8600F6ED79 /* Food.swift */; };
 		475E77262C7D2C8700F6ED79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 475E77252C7D2C8700F6ED79 /* Assets.xcassets */; };
 		475E77292C7D2C8700F6ED79 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 475E77282C7D2C8700F6ED79 /* Preview Assets.xcassets */; };
+		475E77302C7D2D8100F6ED79 /* FoodDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475E772F2C7D2D8100F6ED79 /* FoodDetail.swift */; };
+		475E77322C7D2F3100F6ED79 /* FilterFoodList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475E77312C7D2F3100F6ED79 /* FilterFoodList.swift */; };
+		475E77342C7D2F9200F6ED79 /* FoodList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475E77332C7D2F9200F6ED79 /* FoodList.swift */; };
+		475E77382C7D32C000F6ED79 /* AddFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475E77372C7D32C000F6ED79 /* AddFoodView.swift */; };
+		475E773C2C7D3A3700F6ED79 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475E773B2C7D3A3700F6ED79 /* SampleData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		475E771C2C7D2C8600F6ED79 /* NastiaFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NastiaFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		475E771F2C7D2C8600F6ED79 /* NastiaFoodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NastiaFoodApp.swift; sourceTree = "<group>"; };
 		475E77212C7D2C8600F6ED79 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		475E77232C7D2C8600F6ED79 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		475E77232C7D2C8600F6ED79 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
 		475E77252C7D2C8700F6ED79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		475E77282C7D2C8700F6ED79 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		475E772F2C7D2D8100F6ED79 /* FoodDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetail.swift; sourceTree = "<group>"; };
+		475E77312C7D2F3100F6ED79 /* FilterFoodList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterFoodList.swift; sourceTree = "<group>"; };
+		475E77332C7D2F9200F6ED79 /* FoodList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodList.swift; sourceTree = "<group>"; };
+		475E77372C7D32C000F6ED79 /* AddFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFoodView.swift; sourceTree = "<group>"; };
+		475E773B2C7D3A3700F6ED79 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +65,12 @@
 			children = (
 				475E771F2C7D2C8600F6ED79 /* NastiaFoodApp.swift */,
 				475E77212C7D2C8600F6ED79 /* ContentView.swift */,
-				475E77232C7D2C8600F6ED79 /* Item.swift */,
+				475E77312C7D2F3100F6ED79 /* FilterFoodList.swift */,
+				475E77332C7D2F9200F6ED79 /* FoodList.swift */,
+				475E77232C7D2C8600F6ED79 /* Food.swift */,
+				475E773B2C7D3A3700F6ED79 /* SampleData.swift */,
+				475E772F2C7D2D8100F6ED79 /* FoodDetail.swift */,
+				475E77372C7D32C000F6ED79 /* AddFoodView.swift */,
 				475E77252C7D2C8700F6ED79 /* Assets.xcassets */,
 				475E77272C7D2C8700F6ED79 /* Preview Content */,
 			);
@@ -140,9 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				475E77382C7D32C000F6ED79 /* AddFoodView.swift in Sources */,
 				475E77222C7D2C8600F6ED79 /* ContentView.swift in Sources */,
-				475E77242C7D2C8600F6ED79 /* Item.swift in Sources */,
+				475E77242C7D2C8600F6ED79 /* Food.swift in Sources */,
+				475E77302C7D2D8100F6ED79 /* FoodDetail.swift in Sources */,
+				475E77342C7D2F9200F6ED79 /* FoodList.swift in Sources */,
 				475E77202C7D2C8600F6ED79 /* NastiaFoodApp.swift in Sources */,
+				475E77322C7D2F3100F6ED79 /* FilterFoodList.swift in Sources */,
+				475E773C2C7D3A3700F6ED79 /* SampleData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +304,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -313,6 +334,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
