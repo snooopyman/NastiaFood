@@ -72,10 +72,10 @@ struct FoodList: View {
     }
     
     private func addFood() {
-        withAnimation {
-            let newItem = Food(name: "", isGood: false)
-            modelContext.insert(newItem)
-            newFood = newItem
+        let newItem = Food(name: "", isGood: false)
+        modelContext.insert(newItem)
+        DispatchQueue.main.async {
+            self.newFood = newItem
         }
     }
     
